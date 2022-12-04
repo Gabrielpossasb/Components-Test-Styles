@@ -11,8 +11,8 @@ export function OpenModalAnimation() {
          <div className={`flex font-medium w-[400px] bg-red-200 justify-around items-start p-4 rounded-xl transition-all duration-700 
             ${ComponentVisibility?'h-[300px] shadow-outFullLight' :'h-[90px] shadow-outFull'}
          `}>
-            <div className={`flex flex-col w-40 gap-4 justify-center items-center`}>
-               <button disabled={!ComponentVisibility} onMouseEnter={() => setOpenModal(true)} onClick={() => setOpenModal(!openModal)} 
+            <div onMouseLeave={() => setOpenModal(false)} className={`flex flex-col w-40 gap-4 justify-center items-center`}>
+               <button disabled={!ComponentVisibility} onMouseEnter={() => setOpenModal(true)} 
                   className={`bg-red-50 rounded-lg px-8 p-2 enabled:hover:brightness-90 enabled:hover:text-pink-600 duration-300 border-4 font-bold transition-all shadow-shadowModal 
                      disabled:cursor-not-allowed disabled:brightness-75
                      ${openModal ? 'enabled:border-pink-500/80 duration-1000' : 'border-transparent duration-1000'}
