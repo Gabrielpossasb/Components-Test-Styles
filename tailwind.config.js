@@ -22,8 +22,9 @@ module.exports = {
           '30%': { height: '160px', width: '192px'},
           '95%': { height: '160px', width: '192px', opacity: 100},
           '100%': { height: '160px', width: '192px', opacity: 0}
-        }
+        },
       }
+
     },
   },
   plugins: [],

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { InputSearchOpen } from '../components/inputSearchOpen'
 import { OpenModalAnimation } from '../components/openModalAnimation'
 
 export default function Home() {
@@ -13,6 +14,8 @@ export default function Home() {
 
          <div className={'flex flex-col gap-8 p-24 flex-1 items-center justify-center'}>
             <OpenModalAnimation/>
+            
+            <InputSearchOpen/>
          </div>
          
       </>
