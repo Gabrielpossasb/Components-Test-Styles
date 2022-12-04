@@ -8,7 +8,7 @@ export function OpenModalAnimation() {
 
    return (
       <>
-         <div className={`flex font-medium w-[400px] justify-around items-start p-4 rounded-xl transition-all duration-700 
+         <div className={`flex font-medium w-[400px] bg-red-200 justify-around items-start p-4 rounded-xl transition-all duration-700 
             ${ComponentVisibility?'h-[300px] shadow-outFullLight' :'h-[90px] shadow-outFull'}
          `}>
             <div className={`flex flex-col w-40 gap-4 justify-center items-center`}>
