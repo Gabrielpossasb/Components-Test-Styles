@@ -3,7 +3,7 @@
       
    #### Projeto com exemplos de componentes com diferentes estilizações com TailwindCSS ####
 
-   :link: <https://ignite-shop-phi.vercel.app/> :link:
+   :link: <https://components-test-styles.vercel.app/> :link:
    
    
 </div>
